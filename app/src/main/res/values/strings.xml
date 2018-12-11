@@ -12,6 +12,7 @@
     <string name="appwidget_text">AUTO 2000</string>
     <string name="add_widget">AUTO 2000</string>
     <string name="configure">Configure</string>
-    <string name="title_activity_maps">Map</string>
 
+    <string name="location_text">Latitude: %1$.4f \n Longitude: %2$.4f \n Timestamp: %3$tr</string>
+    <string name="alamat_text">"Nama: %1$s \n Alamat: %2$s \n Timestamp:%3$tr"</string>
 </resources>

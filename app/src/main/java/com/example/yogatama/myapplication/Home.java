@@ -15,7 +15,7 @@ public class Home extends AppCompatActivity implements OnClickListener {
     private Button button;
     private Button button1;
     private Button button2;
-    private Button location;
+    private Button button3;
 
 
     @Override
@@ -29,6 +29,8 @@ public class Home extends AppCompatActivity implements OnClickListener {
         button1.setOnClickListener(this);
         button2 = (Button) findViewById(R.id.video);
         button2.setOnClickListener(this);
+        button3 = (Button) findViewById(R.id.location);
+        button3.setOnClickListener(this);
     }
 
 
@@ -59,13 +61,16 @@ public class Home extends AppCompatActivity implements OnClickListener {
                 Intent i3 = new Intent(this, MainActivity_Video.class);
                 startActivity(i3);
                 break;
-
+            case R.id.location:
+                Intent i4 = new Intent(this, Main4Activity.class);
+                startActivity(i4);
+                break;
         }
     }
 
 
 
     public Button getLocation() {
-        return location;
+        return button3;
     }
 }
